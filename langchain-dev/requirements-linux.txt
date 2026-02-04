@@ -1,0 +1,16 @@
+# Starter requirements for this platform.
+# For reproducible, pinned builds, regenerate with:
+#   pip-compile requirements.in -o requirements-linux.txt
+#
+uv
+langchain
+langchain-community
+langchain-text-splitters
+langsmith
+langchain-openai
+langchain-anthropic
+python-dotenv
+ipython
+rich
+httpx
+pydantic

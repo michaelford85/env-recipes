@@ -1,0 +1,25 @@
+# LangChain development toolbox (edit this file)
+#
+# Generate platform lockfiles with pip-tools:
+#   pip-compile requirements.in -o requirements-darwin.txt
+#   pip-compile requirements.in -o requirements-linux.txt
+#
+# uv is installable via pip, though Astral also provides standalone installers.
+uv
+
+# Core LangChain packages
+langchain
+langchain-community
+langchain-text-splitters
+langsmith
+
+# Common provider integrations (add/remove to taste)
+langchain-openai
+langchain-anthropic
+
+# Dev ergonomics
+python-dotenv
+ipython
+rich
+httpx
+pydantic
