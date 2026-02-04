@@ -17,7 +17,7 @@ This environment provides a clean, isolated Ansible setup for:
 
 Build the environment:
 ```bash
-./scripts/mkenv.sh ansible
+../scripts/mkenv.sh ansible
 ```
 
 Activate it:
