@@ -33,6 +33,7 @@ For fully reproducible rebuilds, generate pinned lockfiles per platform:
 python3 -m pip install --user pip-tools
 
 # macOS
+pip install "pip<24.1"
 pip-compile requirements.in -o requirements-darwin.txt
 
 # Ubuntu / Raspberry Pi OS
