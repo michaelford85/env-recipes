@@ -4,4 +4,4 @@ ipython==8.21.0
 python-dotenv==1.0.1
 rich==13.7.1
 dnspython==2.5.0
-packaging==23.2
+packaging>=24.0

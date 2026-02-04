@@ -14,7 +14,7 @@ This toolbox is an **interactive Python environment** for working with MongoDB f
 
 Build the environment:
 ```bash
-./scripts/mkenv.sh mongo-py
+../scripts/mkenv.sh mongo-py
 ```
 
 Activate it:
